@@ -50,22 +50,6 @@
     font-display: swap;
 }
 
-p {
-  border: red solid 1px;
-}
-
-body {
-  border: red solid 1px;
-}
-
-div {
-  border: red solid 1px;
-}
-
-section {
-  border: red solid 1px;
-}
-
 .page {
   margin: 0 auto;
   font-family: "Mulish", "Arial", sans-serif;
