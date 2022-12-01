@@ -50,12 +50,27 @@
     font-display: swap;
 }
 
+p {
+  border: red solid 1px;
+}
 
+body {
+  border: red solid 1px;
+}
+
+div {
+  border: red solid 1px;
+}
+
+section {
+  border: red solid 1px;
+}
 
 .page {
   margin: 0 auto;
   font-family: "Mulish", "Arial", sans-serif;
   width: 1600px;
+  overflow-x: hidden;
 }
 
 .header {
@@ -325,7 +340,6 @@
   background-position: left top;
   justify-content: flex-end;
   min-height: 477px;
-
 }
 
 .section-info_block_about {
@@ -369,9 +383,8 @@
 .apps {
   position: relative;
   display: flex;
-  margin: 0 0 251px 234.42px;
+  margin: 0 0 251px 280px;
   padding: 277px 0 0;
-  left: 45.58px;
   background-image: url(../images/medicine3.svg);
   background-repeat: no-repeat;
   background-size: 665px 434px;
@@ -379,6 +392,7 @@
   justify-content: flex-start;
   align-items: flex-end;
   min-width: 1365.58px;
+  overflow: hidden;
 }
 
 .section-info_block_apps {
